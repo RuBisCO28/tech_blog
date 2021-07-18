@@ -16,6 +16,7 @@ const Layout: React.FC<Props> = ({ children, home = false }) => {
         <a
           href={config.repo}
           target="_blank"
+          rel="noopener noreferrer"
           className="text-gray-400 underline"
         >
           SourceCode
