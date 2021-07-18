@@ -1,19 +1,17 @@
 import React from "react";
-//import Profile from "./profile";
-//import MobileCategoryMenu from "./mobileCategoryMenu";
-//import CategoryMenu from "./categoryMenu";
-//import PostsList from "./postsList";
-//import { PostData } from "@types";
+import Profile from "./profile";
+import MobileCategoryMenu from "./mobileCategoryMenu";
+import CategoryMenu from "./categoryMenu";
+import PostsList from "./postsList";
+import { PostData } from "@types";
 
 type Props = {
-  //posts: PostData[];
-  posts: ""
+  posts: PostData[];
 };
 
 const PostsContainer: React.FC<Props> = ({ posts }) => {
   return (
     <>
-    {/*
       <Profile />
       <MobileCategoryMenu />
       <hr className="my-5 hidden sm:block" />
@@ -25,7 +23,6 @@ const PostsContainer: React.FC<Props> = ({ posts }) => {
           <PostsList posts={posts} />
         </div>
       </div>
-    */}
     </>
   );
 };

@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import "../styles/global.scss";
 // import "@fortawesome/fontawesome-svg-core/styles.css";
 // import "instantsearch.css/themes/reset.css";
-// import "tailwindcss/tailwind.css";
+import "tailwindcss/tailwind.css";
 import Navbar from "../components/navBar";
 
 const App = ({ Component, pageProps }: AppProps) => {
