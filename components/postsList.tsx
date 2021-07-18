@@ -2,7 +2,7 @@ import React from "react";
 import { NextPage } from "next";
 import Link from "next/link";
 import Date from "./date";
-import { PostData } from "@types";
+import { PostData } from "../types";
 
 type Props = {
   posts: PostData[];

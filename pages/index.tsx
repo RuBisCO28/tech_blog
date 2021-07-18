@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 import PostsContainer from "../components/postsContainer";
 //import { config } from "../site.config";
 import { getSortedPostsData } from "../lib/posts";
-import { PostData } from "@types";
+import { PostData } from "../types";
 
 export const getStaticProps = async () => {
   const allPostsData = getSortedPostsData();

@@ -12,7 +12,6 @@ export const config = {
     process.env.NODE_ENV === "production"
       ? "https://ycopy-icopy.vercel.app"
       : "http://localhost:3000",
-  // カテゴリーは数を増やさない想定でデザインしているので、追加する際は注意
   categoryList: [
     { slug: "/", name: "All" },
     { slug: "/categories/dev", name: "dev" },

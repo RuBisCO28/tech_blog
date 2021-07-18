@@ -3,7 +3,7 @@ import Profile from "./profile";
 import MobileCategoryMenu from "./mobileCategoryMenu";
 import CategoryMenu from "./categoryMenu";
 import PostsList from "./postsList";
-import { PostData } from "@types";
+import { PostData } from "../types";
 
 type Props = {
   posts: PostData[];
