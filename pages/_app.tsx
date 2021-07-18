@@ -9,15 +9,15 @@ import Navbar from "../components/navBar";
 
 const App = ({ Component, pageProps }: AppProps) => {
   if (process.env.NODE_ENV === "production") {
-    const router = useRouter();
-    useEffect(() => {
-      const handleRouteChange = (url: URL) => {
-      };
-      router.events.on("routeChangeComplete", handleRouteChange);
-      return () => {
-        router.events.off("routeChangeComplete", handleRouteChange);
-      };
-    }, [router.events]);
+   // const router = useRouter();
+   // useEffect(() => {
+   //   const handleRouteChange = (url: URL) => {
+   //   };
+   //   router.events.on("routeChangeComplete", handleRouteChange);
+   //   return () => {
+   //     router.events.off("routeChangeComplete", handleRouteChange);
+   //   };
+   // }, [router.events]);
   }
 
   return (
