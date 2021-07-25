@@ -2,19 +2,15 @@ import { NextPage } from "next";
 import Link from "next/link";
 import Layout from "../../components/layout";
 import Date from "../../components/date";
-//import ShareBtns from "../../components/shareBtns";
 import PostList from "../../components/postsList";
 //import { PageSEO } from "../../components/pageSEO";
 import { getAllPostSlugs, getPostData } from "../../lib/posts";
 import { getCategoryPosts } from "../../lib/categories";
-import { isURL } from "../../lib/helper";
 import ReactMarkdown from "react-markdown";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import style from "react-syntax-highlighter/dist/cjs/styles/prism/dracula";
 import { PostData } from "../../types";
 import gfm from "remark-gfm";
-//import Skeleton from "react-loading-skeleton";
-import { config } from "../../site.config";
 import { useEffect } from "react";
 
 type Props = {

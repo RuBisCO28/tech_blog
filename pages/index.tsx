@@ -1,7 +1,6 @@
 import { NextPage } from "next";
 import Layout from "../components/layout";
 import PostsContainer from "../components/postsContainer";
-//import { config } from "../site.config";
 import { getSortedPostsData } from "../lib/posts";
 import { PostData } from "../types";
 

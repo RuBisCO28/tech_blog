@@ -1,10 +1,8 @@
 import { NextPage } from "next";
 import Layout from "../../components/layout";
 import PostsContainer from "../../components/postsContainer";
-//import { PageSEO } from "../../components/pageSEO";
 import { getCategoryPosts, getCategoryNames } from "../../lib/categories";
 import { PostData } from "../../types";
-import { config } from "../../site.config";
 
 type Props = {
   categoryName: string;
