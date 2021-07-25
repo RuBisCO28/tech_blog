@@ -85,9 +85,7 @@ const Post: NextPage<Props> = ({ postData, relatedPosts }) => {
       <picture>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src={
-            isURL(src) ? src : require(`../../contents/posts/${slug}/${src}`)
-          }
+          src={src}
           alt={alt}
         />
       </picture>
