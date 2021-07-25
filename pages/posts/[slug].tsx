@@ -37,6 +37,7 @@ const CodeBlock = ({
           <span className="markdown-body__codeblock-filename">{file}</span>
         </div>
       )}
+      {/* eslint-disable-next-line react/no-children-prop */}
       <SyntaxHighlighter language={lang} style={style} children={value} />
     </div>
   );
@@ -82,6 +83,7 @@ const Post: NextPage<Props> = ({ postData, relatedPosts }) => {
   const Img = ({ alt, src }: { alt: string; src: string }) => {
     return (
       <picture>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={
             isURL(src) ? src : require(`../../contents/posts/${slug}/${src}`)
@@ -107,7 +109,7 @@ const Post: NextPage<Props> = ({ postData, relatedPosts }) => {
             <ReactMarkdown
               renderers={{ code: CodeBlock, image: Img }}
               plugins={[gfm]}
-              children={content}
+              children={content} // eslint-disable-line react/no-children-prop
               allowDangerousHtml={true}
             />
           </div>
