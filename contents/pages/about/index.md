@@ -1,5 +1,5 @@
 ---
-title: "職務経歴書"
+title: "Resume"
 pdf_options:
   format: A4
   margin: 30mm 20mm
@@ -14,11 +14,11 @@ pdf_options:
     </style>
     <section>
       <p>
-        <a href="https://ycopy-icopy.vercel.app/about">Web版</a>
+        <a href="https://ycopy-icopy.vercel.app/about">Web</a>
       </p>
     </section>
 ---
 
-# 職務経歴書
+# Resume
 
 ![Profile img](profile.jpg)
