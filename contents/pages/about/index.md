@@ -19,6 +19,69 @@ pdf_options:
     </section>
 ---
 
-# Resume
+Takaaki Ichikawa
+============
 
-![Profile img](profile.jpg)
+- [LinkedIn](https://www.linkedin.com/in/takaaki-ichikawa-37a42a206/)  
+- [Github](https://github.com/RuBisCO28)    
+
+### ABOUT ME
+I am a skilled software developer with over 3 years of experience, capable of managing technology projects from concept to completion.  
+I’ve already experienced different activities such as front-end and back-end development, client support, project analysis and management.  
+I love breaking problems into small pieces, solving them with team mates, and bringing values to business.
+
+### TECHNICAL SKILLS
+|Key|Value|
+|----------|--------------|
+|Language  | Ruby, Javascript(Vue, React), Python, PHP, C#, Perl, R |
+|Framework | Ruby on Rails, Nuxt.js, Flask, Slim |
+|Database  | PostgreSQL, SQL server, Redis |
+|Infrastructure | AWS, GCP, Docker, Gitlab CI |
+|BI tool | Tableau, Redash, SSRS, SSIS |
+
+### EXPERIENCE
+#### WWWave, Inc. (January 2021 - Present)
+- Software Engineer
+  - Developing various new features, responsible for both frontend and backend
+    - EST(Electronic Sell Through), Mylist, Movie Player, Recommend Engine, etc
+  - Developing API services for an integration with BNPL payment systems
+  - Contribute to development productivity
+    - Optimize CI/CD pipeline and built an automated deployment/release notification flow
+  - Handling scope definition, planning, estimation and tracking
+  - Maintaining the stability based on TDD
+
+#### Trend Micro Inc. (April 2017 - December 2020)
+- Data Engineer(March 2019 - December 2020)
+  - Build Datamart and enhance Report/BI tools
+  - Designed, build, deploy, validate and maintain the infrastructure required for data from a wide variety of data sources
+  - Implemented automation processes and systems to ensure production data is always accurate and available for key stakeholders
+  - Build alert system to notice the increase of escalation cases
+
+- System Developer(November 2018 - November 2019)
+  - Designed and Developed internal application for managing test devices
+  - Maintained the stability and continuity throughout both technically and creatively
+  - Designed and Developed backend infrastructure for Trendmicro CTF 2019 competition
+  - Build monitoring system using zabbix
+
+- Project Manager(April 2018 - December 2019)
+  - Implement SaaS platforms including Salesforce Service Cloud, and Microsoft Dynamics 365
+  - Coordinate between cross-region stakeholders, dev teams, and project teams, who are from Japan, Taiwan, and Philippines
+  - Manage the project timeline, release schedule, deliverables, also risk control, data security, GDPR compliance
+  - Provide information to enable other teams to effectively prepare for seamless delivery of capacity using systems
+
+- Technical Support Engineer(April 2017 - April 2018)
+  - Support internal systems(CRM, Technical Support Tools)
+  - Handle escalation cases from L1/L2 call center
+  - Troubleshoot technical problems with a mix of debugging, system administration, updating documentation
+  - Advocate for customer needs and propose new features to PM and developer
+
+### My COOL SIDE PROJECTS
+- FinancialEye
+  - a site that aims to be the internet's best source of free japan stock data and information for investors
+  - https://github.com/RuBisCO28/FinancialEye
+
+### EDUCATION
+- Chuo university the Graduate School of Science and Engineering(Tokyo Japan) - 2015-2017
+  - Master of Science(BioInformatics)
+- Chuo university (Tokyo Japan) - 2011-2014
+  - Bachelor of Science(Biology)

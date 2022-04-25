@@ -3,7 +3,6 @@ import Link from "next/link";
 import Layout from "../../components/layout";
 import Date from "../../components/date";
 import PostList from "../../components/postsList";
-//import { PageSEO } from "../../components/pageSEO";
 import { getAllPostSlugs, getPostData } from "../../lib/posts";
 import { getCategoryPosts } from "../../lib/categories";
 import ReactMarkdown from "react-markdown";

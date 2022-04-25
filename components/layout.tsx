@@ -12,16 +12,6 @@ const Layout: React.FC<Props> = ({ children, home = false }) => {
       <main className="mt-3">
         <div className="shadow-md bg-white">{children}</div>
       </main>
-      <p className="mt-7 text-center">
-        <a
-          href={config.repo}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-gray-400 underline"
-        >
-          SourceCode
-        </a>
-      </p>
     </div>
   );
 };

@@ -8,10 +8,10 @@ const Profile: React.FC = () => {
       <picture>
         <source srcSet="/images/profile.jpg" />
         <Image
-          src="/images/profile.jpg"
-          alt="Picture of the author"
-          className="rounded-full"
-          width={100}
+          src="/images/silver_lining.jpg"
+          alt="profile"
+          className="object-cover"
+          width={150}
           height={100}
         />
       </picture>
