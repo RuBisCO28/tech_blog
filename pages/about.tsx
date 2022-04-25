@@ -32,8 +32,8 @@ const About: NextPage<Props> = ({ pageData }) => {
           <div className="markdown-body">
             <ReactMarkdown
               plugins={[gfm]}
-              children={content}
-            />
+            >{content}
+            </ReactMarkdown>
           </div>
         </article>
       </div>
