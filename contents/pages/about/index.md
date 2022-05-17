@@ -28,7 +28,7 @@ Takaaki Ichikawa
 ### ABOUT ME
 I am a skilled software developer with over 3 years of experience, capable of managing technology projects from concept to completion.  
 I’ve already experienced different activities such as front-end and back-end development, client support, project analysis and management.  
-I love breaking problems into small pieces, solving them with team mates, and bringing values to business.
+I love data-driven development and bringing values to business.
 
 ### TECHNICAL SKILLS
 |Key|Value|
@@ -43,7 +43,6 @@ I love breaking problems into small pieces, solving them with team mates, and br
 #### WWWave, Inc. (January 2021 - Present)
 - Software Engineer
   - Developing various new features, responsible for both frontend and backend
-    - EST(Electronic Sell Through), Mylist, Movie Player, Recommend Engine, etc
   - Developing API services for an integration with BNPL payment systems
   - Contribute to development productivity
     - Optimize CI/CD pipeline and built an automated deployment/release notification flow
@@ -51,17 +50,17 @@ I love breaking problems into small pieces, solving them with team mates, and br
   - Maintaining the stability based on TDD
 
 #### Trend Micro Inc. (April 2017 - December 2020)
-- Data Engineer(March 2019 - December 2020)
-  - Build Datamart and enhance Report/BI tools
-  - Designed, build, deploy, validate and maintain the infrastructure required for data from a wide variety of data sources
+- Analytics Engineer(March 2019 - December 2020)
+  - Build Datamart and introduced Report/BI tools
   - Implemented automation processes and systems to ensure production data is always accurate and available for key stakeholders
-  - Build alert system to notice the increase of escalation cases
+  - Build alert dashboard to notice the increase of escalation cases
+  - Hold Data Competition between cross-region stakeholders to enhance Data Driven Culture
 
 - System Developer(November 2018 - November 2019)
   - Designed and Developed internal application for managing test devices
   - Maintained the stability and continuity throughout both technically and creatively
-  - Designed and Developed backend infrastructure for Trendmicro CTF 2019 competition
-  - Build monitoring system using zabbix
+  - Designed and Developed backend network infrastructure for Trendmicro CTF 2019 competition
+  - Build monitoring system based on zabbix
 
 - Project Manager(April 2018 - December 2019)
   - Implement SaaS platforms including Salesforce Service Cloud, and Microsoft Dynamics 365
@@ -78,7 +77,7 @@ I love breaking problems into small pieces, solving them with team mates, and br
 ### My COOL SIDE PROJECTS
 - FinancialEye
   - a site that aims to be the internet's best source of free japan stock data and information for investors
-  - https://github.com/RuBisCO28/FinancialEye
+  - https://financialeye360.uw.r.appspot.com
 
 ### EDUCATION
 - Chuo university the Graduate School of Science and Engineering(Tokyo Japan) - 2015-2017
