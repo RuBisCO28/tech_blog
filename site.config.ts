@@ -14,7 +14,7 @@ export const config = {
       : "http://localhost:3000",
   categoryList: [
     { slug: "/", name: "All" },
-    { slug: "/categories/dev", name: "dev" },
-    { slug: "/categories/work", name: "work" },
+    { slug: "/categories/ja", name: "JA" },
+    { slug: "/categories/en", name: "EN" },
   ],
 };

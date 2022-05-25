@@ -1,7 +1,7 @@
 ---
-title:      "GCP無料枠で作る財務&株価分析アプリ Part3"
+title:      "Develop Japan Financial & Stock app with GCP Free Tier Part3"
 date:       "2020-08-15"
-category: "dev"
+category: "JA"
 ---
 
 # はじめに

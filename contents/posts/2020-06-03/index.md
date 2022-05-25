@@ -1,7 +1,7 @@
 ---
-title:      "バルサラの破産確率"
+title:      "Balsara's Bankruptcy Prediction"
 date:       "2020-06-03"
-category: "dev"
+category: "JA"
 ---
 
 ## はじめに

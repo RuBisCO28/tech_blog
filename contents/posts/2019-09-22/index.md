@@ -1,7 +1,7 @@
 ---
-title:      "irisデータに魅せられて"
+title:      "Attracted by iris data"
 date:       "2019-09-22"
-category: "dev"
+category: "JA"
 ---
 
 ## はじめに

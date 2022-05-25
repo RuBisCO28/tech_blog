@@ -50,7 +50,7 @@ I love data-driven development and bringing values to business.
   - Maintaining the stability based on TDD
 
 #### Trend Micro Inc. (April 2017 - December 2020)
-- Analytics Engineer(March 2019 - December 2020)
+- Data Engineer(March 2019 - December 2020)
   - Build Datamart and introduced Report/BI tools
   - Implemented automation processes and systems to ensure production data is always accurate and available for key stakeholders
   - Build alert dashboard to notice the increase of escalation cases

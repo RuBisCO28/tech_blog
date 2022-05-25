@@ -1,7 +1,7 @@
 ---
 title:      "DataCamp Part1: Introduction to Python"
 date:       "2020-05-02"
-category: "dev"
+category: "JA"
 ---
 
 ## はじめに

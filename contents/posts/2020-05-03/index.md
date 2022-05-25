@@ -1,7 +1,7 @@
 ---
 title:      "DataCamp Part2: Intermediate Python"
 date:       "2020-05-03"
-category: "dev"
+category: "JA"
 ---
 
 ## はじめに

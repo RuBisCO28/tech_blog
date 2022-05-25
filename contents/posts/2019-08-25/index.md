@@ -1,7 +1,7 @@
 ---
-title:      "Git for Windowsを使ってGitLabのプロジェクトをいじってみる"
+title:      "Git for Windows & GitLab"
 date:       "2019-08-25"
-category: "dev"
+category: "JA"
 ---
 
 ## 1. Git for Windowsのインストール

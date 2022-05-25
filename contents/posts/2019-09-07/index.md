@@ -1,7 +1,7 @@
 ---
-title:      "QRコードを使用したラズパイによるデバイス管理システムを作ってみた Part1"
+title:      "Build management system with Raspberry pi and QR Part1"
 date:       "2019-09-07"
-category: "dev"
+category: "JA"
 ---
 
 ## はじめに

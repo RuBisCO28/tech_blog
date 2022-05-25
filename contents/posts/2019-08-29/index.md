@@ -1,7 +1,7 @@
 ---
-title:      "もしも縛られた環境でコードを書きたくなったら・・・"
+title:      "Handwriting XAML is a lof of fun・・・?"
 date:       "2019-08-29"
-category: "dev"
+category: "JA"
 ---
 
 ## 背景
