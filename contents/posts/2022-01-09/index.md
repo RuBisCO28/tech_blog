@@ -132,3 +132,47 @@ knight = Knights()
 move_test(bishop) # Bishops can move diagonally
 move_test(knight) # Knights can move two squares vertically and one square horizontally, or two squares horizontally and one square vertically
 ```
+
+## 3. Example
+### CreditCard Class
+- Actually, we need to consider type check error if arg is invalid value
+```python
+class CreditCard
+  def __init__(self, customer, bank, acnt, limit):
+    # encapsulation nonpublic
+    self._customer = customer
+    self._bank = bank
+    self._account = acnt
+    self._limit = limit
+    self._balance = 0
+
+  # accessor
+  def get_customer(self):
+    return self._customer
+
+  def get_bank(self):
+    return self._bank
+
+  def charge(self, price):
+    if price + self._balance > self._limit: # if charge would exceed limit
+      return False                          # cannot accept charge
+    else:
+      self._balance += price
+      return True
+
+class PredatoryCreditCard(CreditCard):
+  def __init__(self, customer, bank, acnt, limit, apr):
+    super().__init__(customer, bank, acnt, limit)
+    self._apr = apr
+
+  def change(self, price):
+    success = super().charge(price)
+    if not success:
+      self._balance += 5
+    return success
+
+  def process_month(self):
+    if self._balance > 0:
+      monthly_factor = pow(1 + self._apr, 1/12)
+      self._balance *= monthly_factor
+```
