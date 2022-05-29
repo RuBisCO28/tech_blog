@@ -50,17 +50,11 @@ I love data-driven development and bringing values to business.
   - Maintaining the stability based on TDD
 
 #### Trend Micro Inc. (April 2017 - December 2020)
-- Data Engineer(March 2019 - December 2020)
+- Data Engineer(January 2019 - December 2020)
   - Build Datamart and introduced Report/BI tools
   - Implemented automation processes and systems to ensure production data is always accurate and available for key stakeholders
   - Build alert dashboard to notice the increase of escalation cases
   - Hold Data Competition between cross-region stakeholders to enhance Data Driven Culture
-
-- System Developer(November 2018 - November 2019)
-  - Designed and Developed internal application for managing test devices
-  - Maintained the stability and continuity throughout both technically and creatively
-  - Designed and Developed backend network infrastructure for Trendmicro CTF 2019 competition
-  - Build monitoring system based on zabbix
 
 - Project Manager(April 2018 - December 2019)
   - Implement SaaS platforms including Salesforce Service Cloud, and Microsoft Dynamics 365
@@ -68,11 +62,12 @@ I love data-driven development and bringing values to business.
   - Manage the project timeline, release schedule, deliverables, also risk control, data security, GDPR compliance
   - Provide information to enable other teams to effectively prepare for seamless delivery of capacity using systems
 
-- Technical Support Engineer(April 2017 - April 2018)
+- Technical Support Engineer(April 2017 - December 2019)
   - Support internal systems(CRM, Technical Support Tools)
-  - Handle escalation cases from L1/L2 call center
   - Troubleshoot technical problems with a mix of debugging, system administration, updating documentation
   - Advocate for customer needs and propose new features to PM and developer
+  - Designed and Developed internal application for managing test devices
+  - Designed and Developed backend infrastructure for Trendmicro CTF 2019 competition
 
 ### My COOL SIDE PROJECTS
 - FinancialEye
