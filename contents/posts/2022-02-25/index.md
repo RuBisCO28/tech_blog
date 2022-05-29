@@ -21,9 +21,10 @@ def factorial(n):
 
 ## Binary Search
 This algorithm maintains two parameters, low and high, such that all the candidate entries have index at least low and at most high.
-Initially, low = 0 and high = n − 1. We then compare the target value to the median candidate, that is, the item data[mid] with index
+Initially, low = 0 and high = n − 1.  
+We then compare the target value to the median candidate, that is, the item data[mid] with index
 
-```
+```python
 mid = [(low + high)/2]
 ```
 
@@ -31,8 +32,7 @@ We consider three cases:
 - If the target equals data[mid], then we have found the item we are looking for, and the search terminates successfully.
 - If target < data[mid], then we recur on the first half of the sequence, that is, on the interval of indices from low to mid − 1.
 - If target > data[mid], then we recur on the second half of the sequence, that is, on the interval of indices from mid + 1 to high.
-
-An unsuccessful search occurs if low > high, as the interval [low,high] is empty.
+- An unsuccessful search occurs if low > high, as the interval [low,high] is empty.
 
 ```python
 def binary_search(data, target, low, high):
@@ -106,4 +106,3 @@ if __name__ == "__main__":
 
 ## Ref
 https://qiita.com/tan5o/items/c977908f1e69ab2e8af1
-
