@@ -91,3 +91,24 @@ So the frontend of your website sends a job onto a job queue and immediately sig
 The job queue is constantly checked by a bunch of workers for new jobs.  
 If there is a new job then the worker does the job and after some minutes sends a signal that the job was done. 
 The frontend, which constantly checks for new “job is done” - signals, sees that the job was done and informs the user about it.
+
+## Performance vs scalability
+- If you have a performance problem, your system is slow for a single user
+- If you have a scalability problem, your system is fast for a single user but slow under heavy load
+
+### Scalability
+- A service is said to be scalable if when we increase the resources in a system, it results in increased performance in a manner proportional to resources added
+- To improve the reliability of the offered service. Introducing redundancy is an important first line of defense against failures
+
+### Why is scalability so hard?
+- Scalability cannot be an after-thought
+  - It requires applications and platforms to be designed with scaling in mind, such that adding resources actually results in improving the performance or that if redundancy is introduced the system performance is not adversely affected.
+- Growing a system through scale-out generally results in a system that has to come to terms with heterogeneity
+  - Resources in the system increase in diversity as next generations of hardware come on line, as bigger or more powerful resources become more cost-effective or when some resources are placed further apart
+  - Heterogeneity means that some nodes will be able to process faster or store more data than other nodes in a system and algorithms that rely on uniformity either break down under these conditions or underutilized the newer resources.
+
+## Latency vs throughput
+- Generally, you should aim for maximal throughput with acceptable latency.
+  - Latency is the time to perform some action or to produce some result
+  - Throughput is the number of such actions or results per unit of time
+
