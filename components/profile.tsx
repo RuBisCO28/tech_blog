@@ -16,7 +16,7 @@ const Profile: React.FC = () => {
         />
       </picture>
       <p className="text-gray-500 mt-4">
-        Tech blog /{" "}
+        Tech poem /{" "}
         <Link href="/about">
           <a className="underline">about</a>
         </Link>

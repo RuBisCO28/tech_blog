@@ -42,3 +42,21 @@ L.size = L.size − 1
 ```
 
 ## Circularly Linked Lists
+- there is a more tangible notion of a circularly linked list, as we can have the tail of the list use its next reference to point back to the head
+of the list
+
+## Doubly Linked Lists
+- A linked list in which each node keeps an explicit reference to the node before it and a reference to the node after it.
+- These lists allow a greater variety of O(1)-time update operations, including insertions and deletions at arbitrary positions within the list.
+
+```python
+class Node:
+__slots__ = _element , _prev , _next # streamline memory
+
+def init (self, element, prev, next): # initialize node’s fields
+  self._element = element # user’s element
+  self._prev = prev # previous node reference
+  self._next = next # next node reference
+```
+
+## The Positional List ADT
