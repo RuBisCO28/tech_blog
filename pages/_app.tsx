@@ -1,8 +1,8 @@
 import { useRouter } from "next/router";
 import { AppProps } from "next/app";
 import { useEffect } from "react";
+import "../styles/tailwind.css";
 import "../styles/global.scss";
-import "tailwindcss/tailwind.css";
 import Navbar from "../components/navBar";
 
 const App = ({ Component, pageProps }: AppProps) => {

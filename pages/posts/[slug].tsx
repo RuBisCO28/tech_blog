@@ -10,7 +10,8 @@ import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import style from "react-syntax-highlighter/dist/cjs/styles/prism/dracula";
 import { PostData } from "../../types";
 import gfm from "remark-gfm";
-import { useEffect } from "react";
+import { isValidElement, useEffect, type ReactNode } from "react";
+import rehypeRaw from "rehype-raw";
 
 type Props = {
   postData: PostData;
@@ -78,7 +79,6 @@ const Post: NextPage<Props> = ({ postData, relatedPosts }) => {
   const Img = ({ alt, src }: { alt: string; src: string }) => {
     return (
       <picture>
-        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={src}
           alt={alt}
@@ -95,15 +95,22 @@ const Post: NextPage<Props> = ({ postData, relatedPosts }) => {
             <Date dateString={date} />
           </small>
           <h1 className="text-3xl font-bold my-3">{title}</h1>
-          <Link href={`/categories/${category}`}>
-            <a className="text-gray-500 underline">#{category}</a>
-          </Link>
+          <Link href={`/categories/${category}`} className="text-gray-500 underline">#{category}</Link>
           <div className="markdown-body">
             <ReactMarkdown
-              renderers={{ code: CodeBlock, image: Img }}
-              plugins={[gfm]}
+              components={{
+                pre: ({ children }) => {
+                  if (!isValidElement<{ className?: string; children?: ReactNode }>(children)) {
+                    return <pre>{children}</pre>;
+                  }
+                  const language = /language-(\S+)/.exec(children.props.className || "")?.[1] || "text";
+                  return <CodeBlock language={language} value={String(children.props.children).replace(/\n$/, "")} />;
+                },
+                img: Img,
+              }}
+              remarkPlugins={[gfm]}
               children={content} // eslint-disable-line react/no-children-prop
-              allowDangerousHtml={true}
+              rehypePlugins={[rehypeRaw]}
             />
           </div>
         </article>

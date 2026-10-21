@@ -31,7 +31,7 @@ const About: NextPage<Props> = ({ pageData }) => {
         <article className='prose max-w-none break-words'>
           <div className="markdown-body">
             <ReactMarkdown
-              plugins={[gfm]}
+              remarkPlugins={[gfm]}
             >{content}
             </ReactMarkdown>
           </div>
