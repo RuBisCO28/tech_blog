@@ -1,7 +1,6 @@
 import { NextPage } from "next";
 import Layout from "../components/layout";
 import { getPageData } from "../lib/page";
-import { isURL } from "../lib/helper";
 import ReactMarkdown from "react-markdown";
 import gfm from "remark-gfm";
 

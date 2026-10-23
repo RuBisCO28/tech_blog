@@ -19,7 +19,7 @@ type Props = {
 
 const Home: NextPage<Props> = ({ allPostsData }) => {
   return (
-   <Layout home>
+   <Layout>
       <div className="p-5">
         <PostsContainer posts={allPostsData} />
       </div>

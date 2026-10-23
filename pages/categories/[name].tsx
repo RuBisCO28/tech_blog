@@ -5,7 +5,6 @@ import { getCategoryPosts, getCategoryNames } from "../../lib/categories";
 import { PostData } from "../../types";
 
 type Props = {
-  categoryName: string;
   posts: PostData[];
 };
 
@@ -13,7 +12,6 @@ export async function getStaticProps({ params }: { params: { name: string } }) {
   const posts = await getCategoryPosts(params.name);
   return {
     props: {
-      categoryName: params.name,
       posts,
     },
   };
@@ -27,7 +25,7 @@ export const getStaticPaths = async () => {
   };
 };
 
-const Category: NextPage<Props> = ({ posts, categoryName }) => {
+const Category: NextPage<Props> = ({ posts }) => {
   return (
     <Layout>
       <div className="p-5">

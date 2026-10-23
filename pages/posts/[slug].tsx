@@ -42,7 +42,7 @@ const CodeBlock = ({
 // Fetch necessary data for the blog post using params.slug
 export async function getStaticProps({ params }: { params: { slug: string } }) {
   const postData = await getPostData(params.slug);
-  const relatedPosts = await (await getCategoryPosts(postData.category))
+  const relatedPosts = (await getCategoryPosts(postData.category))
     .filter((post) => post.slug !== params.slug)
     .slice(0, 3);
 
@@ -64,7 +64,7 @@ export const getStaticPaths = async () => {
 };
 
 const Post: NextPage<Props> = ({ postData, relatedPosts }) => {
-  const { slug, title, date, content, category, thumbnail } = postData;
+  const { title, date, content, category } = postData;
 
   useEffect(() => {
     const script = document.createElement("script");

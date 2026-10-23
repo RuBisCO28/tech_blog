@@ -4,5 +4,4 @@ export type PostData = {
   date: string;
   content: string;
   category: string;
-  thumbnail?: string;
 };
